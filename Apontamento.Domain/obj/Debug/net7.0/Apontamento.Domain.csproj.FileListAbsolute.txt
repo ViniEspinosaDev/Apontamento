@@ -1,0 +1,12 @@
+C:\Dev\Projetos\Apontamento\Apontamento.Domain\bin\Debug\net7.0\Apontamento.Domain.deps.json
+C:\Dev\Projetos\Apontamento\Apontamento.Domain\bin\Debug\net7.0\Apontamento.Domain.dll
+C:\Dev\Projetos\Apontamento\Apontamento.Domain\bin\Debug\net7.0\Apontamento.Domain.pdb
+C:\Dev\Projetos\Apontamento\Apontamento.Domain\obj\Debug\net7.0\Apontamento.Domain.csproj.AssemblyReference.cache
+C:\Dev\Projetos\Apontamento\Apontamento.Domain\obj\Debug\net7.0\Apontamento.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Projetos\Apontamento\Apontamento.Domain\obj\Debug\net7.0\Apontamento.Domain.AssemblyInfoInputs.cache
+C:\Dev\Projetos\Apontamento\Apontamento.Domain\obj\Debug\net7.0\Apontamento.Domain.AssemblyInfo.cs
+C:\Dev\Projetos\Apontamento\Apontamento.Domain\obj\Debug\net7.0\Apontamento.Domain.csproj.CoreCompileInputs.cache
+C:\Dev\Projetos\Apontamento\Apontamento.Domain\obj\Debug\net7.0\Apontamento.Domain.dll
+C:\Dev\Projetos\Apontamento\Apontamento.Domain\obj\Debug\net7.0\refint\Apontamento.Domain.dll
+C:\Dev\Projetos\Apontamento\Apontamento.Domain\obj\Debug\net7.0\Apontamento.Domain.pdb
+C:\Dev\Projetos\Apontamento\Apontamento.Domain\obj\Debug\net7.0\ref\Apontamento.Domain.dll
