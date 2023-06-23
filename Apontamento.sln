@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apontamento", "Apontamento\Apontamento.csproj", "{1B09ABCF-C383-4912-991B-C5CD0DC3823F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apontamento.Domain", "Apontamento.Domain\Apontamento.Domain.csproj", "{9BAED640-2702-4FA8-A8AE-8C749ADB67E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B09ABCF-C383-4912-991B-C5CD0DC3823F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B09ABCF-C383-4912-991B-C5CD0DC3823F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B09ABCF-C383-4912-991B-C5CD0DC3823F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B09ABCF-C383-4912-991B-C5CD0DC3823F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BAED640-2702-4FA8-A8AE-8C749ADB67E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BAED640-2702-4FA8-A8AE-8C749ADB67E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BAED640-2702-4FA8-A8AE-8C749ADB67E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BAED640-2702-4FA8-A8AE-8C749ADB67E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9FE383B-4521-4E88-8588-9FA49E060B9D}
+	EndGlobalSection
+EndGlobal
