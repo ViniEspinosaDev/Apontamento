@@ -1,6 +1,7 @@
 ﻿using Apontamento.Domain.Constantes;
 using Apontamento.Domain.Entities;
 using Apontamento.Domain.Interfaces;
+using System.Diagnostics;
 using System.Text.RegularExpressions;
 
 namespace Apontamento
@@ -350,6 +351,24 @@ namespace Apontamento
             catch (Exception ex)
             {
                 string mensagem = $"Falha ao selecionar linha. Retorno: {ex.Message}";
+                AdicionarErro(mensagem);
+            }
+        }
+
+        private void linkLabelGitHub_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            AbrirLinkGitHub();
+        }
+
+        private void AbrirLinkGitHub()
+        {
+            try
+            {
+                Process.Start(new ProcessStartInfo { FileName = @"https://github.com/ViniEspinosaDev/Apontamento/", UseShellExecute = true });
+            }
+            catch (Exception ex)
+            {
+                string mensagem = $"Falha ao abrir link do GitHub. Retorno: {ex.Message}";
                 AdicionarErro(mensagem);
             }
         }

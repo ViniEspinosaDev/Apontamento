@@ -48,6 +48,7 @@
             labelLinha = new Label();
             labelMensagemLog = new Label();
             timerMensagemLog = new System.Windows.Forms.Timer(components);
+            linkLabelGitHub = new LinkLabel();
             GroupBoxPreview.SuspendLayout();
             groupBoxSalvar.SuspendLayout();
             SuspendLayout();
@@ -108,7 +109,7 @@
             groupBoxSalvar.Controls.Add(labelTarefa);
             groupBoxSalvar.Controls.Add(comboBoxLinha);
             groupBoxSalvar.Controls.Add(labelLinha);
-            groupBoxSalvar.Location = new Point(12, 51);
+            groupBoxSalvar.Location = new Point(12, 68);
             groupBoxSalvar.Margin = new Padding(3, 4, 3, 4);
             groupBoxSalvar.Name = "groupBoxSalvar";
             groupBoxSalvar.Padding = new Padding(3, 4, 3, 4);
@@ -234,11 +235,24 @@
             timerMensagemLog.Interval = 1000;
             timerMensagemLog.Tick += timerMensagemLog_Tick;
             // 
+            // linkLabelGitHub
+            // 
+            linkLabelGitHub.AutoSize = true;
+            linkLabelGitHub.LinkColor = SystemColors.MenuHighlight;
+            linkLabelGitHub.Location = new Point(12, 289);
+            linkLabelGitHub.Name = "linkLabelGitHub";
+            linkLabelGitHub.Size = new Size(56, 20);
+            linkLabelGitHub.TabIndex = 5;
+            linkLabelGitHub.TabStop = true;
+            linkLabelGitHub.Text = "GitHub";
+            linkLabelGitHub.LinkClicked += linkLabelGitHub_LinkClicked;
+            // 
             // ApontamentoForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(912, 589);
+            Controls.Add(linkLabelGitHub);
             Controls.Add(labelMensagemLog);
             Controls.Add(GroupBoxPreview);
             Controls.Add(DatePickerDataApontamento);
@@ -279,5 +293,6 @@
         private Button btnCopiar;
         private Label labelMensagemLog;
         public System.Windows.Forms.Timer timerMensagemLog;
+        private LinkLabel linkLabelGitHub;
     }
 }
