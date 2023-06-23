@@ -34,7 +34,6 @@
             btnCopiar = new Button();
             labelPreview = new Label();
             groupBoxSalvar = new GroupBox();
-            label1 = new Label();
             btnSalvar = new Button();
             labelTempoExemplo = new Label();
             maskedTextBoxHoras = new MaskedTextBox();
@@ -54,9 +53,10 @@
             // 
             // DatePickerDataApontamento
             // 
-            DatePickerDataApontamento.Location = new Point(12, 12);
+            DatePickerDataApontamento.Location = new Point(14, 16);
+            DatePickerDataApontamento.Margin = new Padding(3, 4, 3, 4);
             DatePickerDataApontamento.Name = "DatePickerDataApontamento";
-            DatePickerDataApontamento.Size = new Size(338, 23);
+            DatePickerDataApontamento.Size = new Size(386, 27);
             DatePickerDataApontamento.TabIndex = 0;
             DatePickerDataApontamento.ValueChanged += DatePickerDataApontamento_ValueChanged;
             // 
@@ -64,18 +64,21 @@
             // 
             GroupBoxPreview.Controls.Add(btnCopiar);
             GroupBoxPreview.Controls.Add(labelPreview);
-            GroupBoxPreview.Location = new Point(416, 7);
+            GroupBoxPreview.Location = new Point(475, 9);
+            GroupBoxPreview.Margin = new Padding(3, 4, 3, 4);
             GroupBoxPreview.Name = "GroupBoxPreview";
-            GroupBoxPreview.Size = new Size(372, 414);
+            GroupBoxPreview.Padding = new Padding(3, 4, 3, 4);
+            GroupBoxPreview.Size = new Size(425, 571);
             GroupBoxPreview.TabIndex = 1;
             GroupBoxPreview.TabStop = false;
             GroupBoxPreview.Text = "Preview";
             // 
             // btnCopiar
             // 
-            btnCopiar.Location = new Point(291, 386);
+            btnCopiar.Location = new Point(332, 532);
+            btnCopiar.Margin = new Padding(3, 4, 3, 4);
             btnCopiar.Name = "btnCopiar";
-            btnCopiar.Size = new Size(75, 23);
+            btnCopiar.Size = new Size(86, 31);
             btnCopiar.TabIndex = 4;
             btnCopiar.Text = "Copiar";
             btnCopiar.UseVisualStyleBackColor = true;
@@ -84,16 +87,15 @@
             // labelPreview
             // 
             labelPreview.AutoSize = true;
-            labelPreview.Location = new Point(6, 19);
-            labelPreview.MaximumSize = new Size(360, 390);
-            labelPreview.MinimumSize = new Size(360, 390);
+            labelPreview.Location = new Point(7, 25);
+            labelPreview.MaximumSize = new Size(411, 535);
+            labelPreview.MinimumSize = new Size(411, 535);
             labelPreview.Name = "labelPreview";
-            labelPreview.Size = new Size(360, 390);
+            labelPreview.Size = new Size(411, 535);
             labelPreview.TabIndex = 0;
             // 
             // groupBoxSalvar
             // 
-            groupBoxSalvar.Controls.Add(label1);
             groupBoxSalvar.Controls.Add(btnSalvar);
             groupBoxSalvar.Controls.Add(labelTempoExemplo);
             groupBoxSalvar.Controls.Add(maskedTextBoxHoras);
@@ -105,27 +107,21 @@
             groupBoxSalvar.Controls.Add(labelTarefa);
             groupBoxSalvar.Controls.Add(comboBoxLinha);
             groupBoxSalvar.Controls.Add(labelLinha);
-            groupBoxSalvar.Location = new Point(12, 266);
+            groupBoxSalvar.Location = new Point(12, 51);
+            groupBoxSalvar.Margin = new Padding(3, 4, 3, 4);
             groupBoxSalvar.Name = "groupBoxSalvar";
-            groupBoxSalvar.Size = new Size(398, 155);
+            groupBoxSalvar.Padding = new Padding(3, 4, 3, 4);
+            groupBoxSalvar.Size = new Size(455, 207);
             groupBoxSalvar.TabIndex = 3;
             groupBoxSalvar.TabStop = false;
             groupBoxSalvar.Text = "Editar horas";
             // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(3, 154);
-            label1.Name = "label1";
-            label1.Size = new Size(215, 15);
-            label1.TabIndex = 12;
-            label1.Text = "Insira todas as informações necessárias.";
-            // 
             // btnSalvar
             // 
-            btnSalvar.Location = new Point(317, 126);
+            btnSalvar.Location = new Point(362, 168);
+            btnSalvar.Margin = new Padding(3, 4, 3, 4);
             btnSalvar.Name = "btnSalvar";
-            btnSalvar.Size = new Size(75, 23);
+            btnSalvar.Size = new Size(86, 31);
             btnSalvar.TabIndex = 11;
             btnSalvar.Text = "Salvar";
             btnSalvar.UseVisualStyleBackColor = true;
@@ -134,78 +130,82 @@
             // labelTempoExemplo
             // 
             labelTempoExemplo.AutoSize = true;
-            labelTempoExemplo.Location = new Point(203, 117);
+            labelTempoExemplo.Location = new Point(232, 156);
             labelTempoExemplo.Name = "labelTempoExemplo";
-            labelTempoExemplo.Size = new Size(52, 15);
+            labelTempoExemplo.Size = new Size(66, 20);
             labelTempoExemplo.TabIndex = 10;
             labelTempoExemplo.Text = "Ex. 06:30";
             // 
             // maskedTextBoxHoras
             // 
-            maskedTextBoxHoras.Location = new Point(61, 109);
+            maskedTextBoxHoras.Location = new Point(70, 145);
+            maskedTextBoxHoras.Margin = new Padding(3, 4, 3, 4);
             maskedTextBoxHoras.Mask = "00:00";
             maskedTextBoxHoras.Name = "maskedTextBoxHoras";
-            maskedTextBoxHoras.Size = new Size(136, 23);
+            maskedTextBoxHoras.Size = new Size(155, 27);
             maskedTextBoxHoras.TabIndex = 9;
             maskedTextBoxHoras.ValidatingType = typeof(DateTime);
             // 
             // labelTempo
             // 
             labelTempo.AutoSize = true;
-            labelTempo.Location = new Point(6, 117);
+            labelTempo.Location = new Point(7, 156);
             labelTempo.Name = "labelTempo";
-            labelTempo.Size = new Size(46, 15);
+            labelTempo.Size = new Size(58, 20);
             labelTempo.TabIndex = 7;
             labelTempo.Text = "Tempo:";
             // 
             // comboBoxAcao
             // 
             comboBoxAcao.FormattingEnabled = true;
-            comboBoxAcao.Location = new Point(60, 80);
+            comboBoxAcao.Location = new Point(69, 107);
+            comboBoxAcao.Margin = new Padding(3, 4, 3, 4);
             comboBoxAcao.Name = "comboBoxAcao";
-            comboBoxAcao.Size = new Size(137, 23);
+            comboBoxAcao.Size = new Size(156, 28);
             comboBoxAcao.TabIndex = 6;
             // 
             // labelAcao
             // 
             labelAcao.AutoSize = true;
-            labelAcao.Location = new Point(6, 88);
+            labelAcao.Location = new Point(7, 117);
             labelAcao.Name = "labelAcao";
-            labelAcao.Size = new Size(37, 15);
+            labelAcao.Size = new Size(46, 20);
             labelAcao.TabIndex = 5;
             labelAcao.Text = "Ação:";
             // 
             // labelTarefaExemplo
             // 
             labelTarefaExemplo.AutoSize = true;
-            labelTarefaExemplo.Location = new Point(203, 59);
+            labelTarefaExemplo.Location = new Point(232, 79);
             labelTarefaExemplo.Name = "labelTarefaExemplo";
-            labelTarefaExemplo.Size = new Size(55, 15);
+            labelTarefaExemplo.Size = new Size(71, 20);
             labelTarefaExemplo.TabIndex = 4;
             labelTarefaExemplo.Text = "Ex. 22650";
             // 
             // textBoxTarefa
             // 
-            textBoxTarefa.Location = new Point(60, 51);
+            textBoxTarefa.Location = new Point(69, 68);
+            textBoxTarefa.Margin = new Padding(3, 4, 3, 4);
             textBoxTarefa.Name = "textBoxTarefa";
-            textBoxTarefa.Size = new Size(137, 23);
+            textBoxTarefa.Size = new Size(156, 27);
             textBoxTarefa.TabIndex = 3;
             // 
             // labelTarefa
             // 
             labelTarefa.AutoSize = true;
-            labelTarefa.Location = new Point(6, 59);
+            labelTarefa.Location = new Point(7, 79);
             labelTarefa.Name = "labelTarefa";
-            labelTarefa.Size = new Size(41, 15);
+            labelTarefa.Size = new Size(52, 20);
             labelTarefa.TabIndex = 2;
             labelTarefa.Text = "Tarefa:";
             // 
             // comboBoxLinha
             // 
             comboBoxLinha.FormattingEnabled = true;
-            comboBoxLinha.Location = new Point(60, 22);
+            comboBoxLinha.Location = new Point(69, 29);
+            comboBoxLinha.Margin = new Padding(3, 4, 3, 4);
             comboBoxLinha.Name = "comboBoxLinha";
-            comboBoxLinha.Size = new Size(137, 23);
+            comboBoxLinha.Size = new Size(156, 28);
             comboBoxLinha.TabIndex = 1;
             comboBoxLinha.SelectedIndexChanged += comboBoxLinha_SelectedIndexChanged;
             comboBoxLinha.KeyDown += comboBoxLinha_KeyDown;
@@ -213,18 +213,18 @@
             // labelLinha
             // 
             labelLinha.AutoSize = true;
-            labelLinha.Location = new Point(6, 30);
+            labelLinha.Location = new Point(7, 40);
             labelLinha.Name = "labelLinha";
-            labelLinha.Size = new Size(39, 15);
+            labelLinha.Size = new Size(47, 20);
             labelLinha.TabIndex = 0;
             labelLinha.Text = "Linha:";
             // 
             // labelMensagemLog
             // 
             labelMensagemLog.AutoSize = true;
-            labelMensagemLog.Location = new Point(12, 426);
+            labelMensagemLog.Location = new Point(14, 560);
             labelMensagemLog.Name = "labelMensagemLog";
-            labelMensagemLog.Size = new Size(0, 15);
+            labelMensagemLog.Size = new Size(0, 20);
             labelMensagemLog.TabIndex = 4;
             // 
             // timerMensagemLog
@@ -235,15 +235,16 @@
             // 
             // ApontamentoForm
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(912, 589);
             Controls.Add(labelMensagemLog);
-            Controls.Add(groupBoxSalvar);
             Controls.Add(GroupBoxPreview);
             Controls.Add(DatePickerDataApontamento);
-            MaximumSize = new Size(816, 489);
-            MinimumSize = new Size(816, 489);
+            Controls.Add(groupBoxSalvar);
+            Margin = new Padding(3, 4, 3, 4);
+            MaximumSize = new Size(930, 636);
+            MinimumSize = new Size(930, 636);
             Name = "ApontamentoForm";
             Text = "Apontamento de horas";
             Activated += ApontamentoForm_Activated;
@@ -274,7 +275,6 @@
         private ComboBox comboBoxAcao;
         private Label labelAcao;
         private Button btnCopiar;
-        private Label label1;
         private Label labelMensagemLog;
         public System.Windows.Forms.Timer timerMensagemLog;
     }
