@@ -1,5 +1,6 @@
 # Apontamento
 
+### Ações:<br />
 Análise - Entendimento do card, análise do cenário e alinhamento com a equipe<br />
 Development - Desenvolvimento + teste da própria correção<br />
 Apoio Dev - Apoio a outro desenvolvimento sobre o processo, sobre código, direcionamento etc<br />
