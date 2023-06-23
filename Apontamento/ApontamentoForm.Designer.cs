@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ApontamentoForm));
             DatePickerDataApontamento = new DateTimePicker();
             GroupBoxPreview = new GroupBox();
             btnCopiar = new Button();
@@ -242,6 +243,7 @@
             Controls.Add(GroupBoxPreview);
             Controls.Add(DatePickerDataApontamento);
             Controls.Add(groupBoxSalvar);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(3, 4, 3, 4);
             MaximumSize = new Size(930, 636);
             MinimumSize = new Size(930, 636);
